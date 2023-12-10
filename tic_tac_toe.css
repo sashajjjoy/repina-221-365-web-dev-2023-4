@@ -1,0 +1,76 @@
+.cont {
+    margin: 0 auto;
+    max-width: 900px;
+    border: 3px solid #c41c3a; /* заменим черный цвет рамки на новогодний красный */
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 2px dashed #3c5aa6; /* заменим красный цвет рамки на новогодний синий пунктир */
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; /* используем шрифт Roboto */
+    color: red; /* устанавливаем белый цвет текста */
+    background-color: white;
+    padding: 20px 0;
+    margin: 20px 150px 20px 150px;
+}
+
+body{
+    background-image: url('https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663276482_15-mykaleidoscope-ru-p-novogodnii-fon-dlya-otkritki-krasivo-17.jpg');
+    background-size: cover; /* Растягивание изображения на всю площадь */
+}
+.cell {
+    box-sizing: border-box;
+    border: 1px solid #3c5aa6; /* заменим красный цвет рамки на новогодний синий */
+    width: 200px;
+    height: 200px;
+    font-size: 196px;
+    background-color: white; /* добавим заливку белым цветом */
+    color: #c41c3a; /* заменим цвет текста на новогодний красный */
+}
+
+#start {
+    margin: 10px 0;
+    padding: 10px; /* увеличим внутренний отступ для большего удобства */
+    background-color: #c41c3a; /* сделаем фон кнопки новогодним красным */
+    color: white; /* установим белый цвет текста */
+    border: none; /* уберем рамку кнопки */
+    font-weight: bold; /* сделаем текст на кнопке жирным */
+    cursor: pointer; /* добавим стили для указания возможности клика */
+}
+
+#notification {
+    display: flex;
+    align-items: center; /* выравниваем по вертикали по центру */
+    justify-content: center; /* выравниваем по горизонтали по центру */
+    position: fixed; /* фиксированное положение на странице */
+    top: 50%;  /* размещаем от верхнего края на 50% */
+    left: 50%; /* размещаем от левого края на 50% */
+    transform: translate(-50%, -50%); /* используем transform для точной центрировки */
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* используем шрифт Roboto */
+    color: red; /* устанавливаем белый цвет текста */
+}
+
+
+.win {
+    background-color: #b3eecc; /* заменим цвет фона на новогодний светло-зеленый */
+}
+
+.draw {
+    background-color: #a0a77b; /* заменим цвет фона на новогодний серо-зеленый */
+}
+
+.lose {
+    background-color: #ad0000; /* заменим цвет фона на новогодний темно-красный */
+    color: white; /* установим белый цвет текста */
+}
