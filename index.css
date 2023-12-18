@@ -1,50 +1,29 @@
-.calc-container
-{
-margin: 252px 78px 42px 623px;
-box-sizing: border-box;
-background-color: DimGrey;
-border-radius: 20px;
-width: 350px;
-height:400px;
-padding: 10px;
-
-}
-.output
-{
-margin-left:14px;
-margin-bottom:10px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1612867432_90-p-krasivii-novogodnii-fon-krasnii-123.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.calculator {
-  display: flex;
-  flex-direction: column;
+.butt {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.row {
-  display: flex;
-  justify-content: space-around;
-}
-
-.key {
-  width: 60px;
-  height: 60px;
-  margin: 5px;
-  border: none;
-  cursor: pointer;
-  background-color: #e6e6e6;
-  border-radius: 5px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 0.3s;
-}
-
-.key:hover {
-  background-color: #d9d9d9;
-}
-body
-{
-    height: 1vh;
-    background-image: url('http://gamerwall.pro/uploads/posts/2021-11/1637092784_85-gamerwall-pro-p-tekstura-novii-god-oboi-na-zastavku-92.jpg');
+.butt:hover {
+    background-color: #45a049;
 }
